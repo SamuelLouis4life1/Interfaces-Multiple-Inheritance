@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentCar", "RentCar\RentCar.csproj", "{421F9C1A-75FA-45BE-A47F-DE3480C0DE39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentCar", "RentCar\RentCar.csproj", "{421F9C1A-75FA-45BE-A47F-DE3480C0DE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallmentContractProcessing", "InstallmentContractProcessing\InstallmentContractProcessing.csproj", "{0AF27AD4-586F-407E-8922-AE5A55EBF29C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{421F9C1A-75FA-45BE-A47F-DE3480C0DE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{421F9C1A-75FA-45BE-A47F-DE3480C0DE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{421F9C1A-75FA-45BE-A47F-DE3480C0DE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF27AD4-586F-407E-8922-AE5A55EBF29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF27AD4-586F-407E-8922-AE5A55EBF29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF27AD4-586F-407E-8922-AE5A55EBF29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF27AD4-586F-407E-8922-AE5A55EBF29C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
