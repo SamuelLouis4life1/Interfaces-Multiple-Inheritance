@@ -1,6 +1,12 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
+using MotivatingProblem.Entities;
+
+/// <summary>
+/// a program to read a "hardcode" file containing people's names (one name per line), storing them in a list. 
+/// Then, sort the data in that list and display it neatly on the screen.
+/// </summary>
 
 namespace MotivatingProblem
 {
@@ -13,15 +19,15 @@ namespace MotivatingProblem
             {
                 using (StreamReader streamReader = File.OpenText(path))
                 {
-                    List<string> list = new List<string>();
+                    List<Employee> list = new List<Employee>();
                     while (!streamReader.EndOfStream)
                     {
-                        list.Add(streamReader.ReadLine());
+                        list.Add(new Employee(streamReader.ReadLine()));
                     }
                     list.Sort();
-                    foreach (string str in list)
+                    foreach (Employee employee in list)
                     {
-                        Console.WriteLine(str);
+                        Console.WriteLine(employee);
                     }
                 }
             }
