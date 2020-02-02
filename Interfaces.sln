@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallmentContractProcessi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotivatingProblem", "MotivatingProblem\MotivatingProblem.csproj", "{28C75C7C-C4F7-4914-8F8D-46161EBF6652}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleInheritance", "MultipleInheritance\MultipleInheritance.csproj", "{DC334DA7-6814-42BF-BD81-1B25C6B7BFB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{28C75C7C-C4F7-4914-8F8D-46161EBF6652}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28C75C7C-C4F7-4914-8F8D-46161EBF6652}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28C75C7C-C4F7-4914-8F8D-46161EBF6652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC334DA7-6814-42BF-BD81-1B25C6B7BFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC334DA7-6814-42BF-BD81-1B25C6B7BFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC334DA7-6814-42BF-BD81-1B25C6B7BFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC334DA7-6814-42BF-BD81-1B25C6B7BFB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
